@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ctime="$(date +'%-I:%M %p')"
+cbat0="$(cat /sys/class/power_supply/BAT0/capacity)"
+cbat1="$(cat /sys/class/power_supply/BAT1/capacity)"
+cdate="$(date +'%a %D')"
+xsetroot -name " [ $cbat0% $cbat1% ] [ $ctime ] [ $cdate ] "

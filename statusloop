@@ -1,0 +1,6 @@
+#!/bin/sh
+
+while :; do
+  ~/Scripts/status
+  sleep 1s
+done
