@@ -1,0 +1,10 @@
+Alt_R
+        xmouseless
+super + q
+        brightnessctl set 5%-
+super + w
+        brightnessctl set +5%
+super + Delete
+        dmenu_run
+super + Return
+        st
